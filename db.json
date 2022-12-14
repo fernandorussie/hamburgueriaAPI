@@ -2,15 +2,15 @@
   "sanduiches": [
     {
       "id": 1,
-      "nome": "Hambúrguer",
-      "descricao": "Pão, 1 blend de hambúrguer 90g, salada e molho especial.",
+      "nome": "X-Burguer",
+      "descricao": "Pão, 1 blend de hambúrguer 90g e molho especial.",
       "preco": 8.5,
-      "imagem": "../assets/img-sanduiche/img1.png",
+      "imagem": "https://github.com/fernandorussie/hamburgueriaAPI/blob/main/assets/img-sanduiche/img1.png?raw=true",
       "categoria_id": 1
     },
     {
       "id": 2,
-      "nome": "X-Burguer",
+      "nome": "X-Salada",
       "descricao": "Pão, 1 blend de hambúrguer 90g, 1 fatia de queijo, salada e molho especial.",
       "preco": 10.5,
       "imagem": "",
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "nome": "X-Bacon",
-      "descricao": "Pão, 1 blend de hambúrguer 120g, 1 fatia de queijo, 2 fatia de bacon, salada e molho especial.",
+      "descricao": "Pão, 1 blend de hambúrguer 120g, 1 fatia de queijo, 2 fatia de bacon e molho especial.",
       "preco": 12.5,
       "imagem": "",
       "categoria_id": 1
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "nome": "X-Tudo",
-      "descricao": "Pão, 2 blends de hambúrguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e molho especial.",
+      "descricao": "Pão, 2 blends de hambúrguer 90g, 2 fatias de queijo, 4 fatias de bacon e molho especial.",
       "preco": 14.5,
       "imagem": "",
       "categoria_id": 1
