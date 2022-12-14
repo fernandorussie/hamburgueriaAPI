@@ -5,32 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #listaProdutos{
-            width: 100%;
-            border:1px solid red;
-            display:flex;
-            justify-content: center;
-            align-items:center;
-        }
-        .card-product{
-            width: 200px;
-            height: 200px;
-            border: 1px solid red;
-            display:flex;
-            justify-content: space-around;
-            align-items:center;
-            flex-direction: column;
-            padding: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <h1>Hamburgueria - API JSON-Server</h1>
-    <a href="https://hamburgueriaapi.onrender.com/sanduiches">/Sanduiches</a>
-    <a href="https://hamburgueriaapi.onrender.com/bebidas">/Bebidas</a>
-    <a href="https://hamburgueriaapi.onrender.com/categoria">/Categoria</a>
+    <div>
+        <div class="box_routers">
+            <a href="https://hamburgueriaapi.onrender.com/sanduiches">/Sanduiches</a>
+            <p id="qtSanduiche"></p>
+        </div>
+        <div class="box_routers">
+            <a href="https://hamburgueriaapi.onrender.com/bebidas">/Bebidas</a>
+            <p id="qtBebida"></p>
+
+        </div>
+        <div class="box_routers">
+            <a href="https://hamburgueriaapi.onrender.com/acompanhamentos">/Acompanhamentos</a>
+            <p id="qtAcomp"></p>
+
+        </div>
+        <div class="box_routers">
+            <a href="https://hamburgueriaapi.onrender.com/categorias">/Categorias</a>
+            <p id="qtCategoria"></p>
+        </div>
+    </div>
     <!-- <div id="listaProdutos"></div> -->
-    <script src="app.js"></script>
+    <script src="../app.js"></script>
 </body>
 </html>
