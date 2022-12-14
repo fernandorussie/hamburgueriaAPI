@@ -13,7 +13,7 @@
       "nome": "X-Salada",
       "descricao": "Pão, 1 blend de hambúrguer 90g, 1 fatia de queijo, salada e molho especial.",
       "preco": 10.5,
-      "imagem": "",
+      "imagem": "https://github.com/fernandorussie/hamburgueriaAPI/blob/main/assets/img-sanduiche/img2.jpg?raw=true",
       "categoria_id": 1
     },
     {
@@ -21,7 +21,7 @@
       "nome": "X-Bacon",
       "descricao": "Pão, 1 blend de hambúrguer 120g, 1 fatia de queijo, 2 fatia de bacon e molho especial.",
       "preco": 12.5,
-      "imagem": "",
+      "imagem": "https://github.com/fernandorussie/hamburgueriaAPI/blob/main/assets/img-sanduiche/img3.jpg?raw=true",
       "categoria_id": 1
     },
     {
@@ -29,7 +29,7 @@
       "nome": "X-Tudo",
       "descricao": "Pão, 2 blends de hambúrguer 90g, 2 fatias de queijo, 4 fatias de bacon e molho especial.",
       "preco": 14.5,
-      "imagem": "",
+      "imagem": "https://github.com/fernandorussie/hamburgueriaAPI/blob/main/assets/img-sanduiche/img4.jpg?raw=true",
       "categoria_id": 1
     }
   ],
@@ -39,13 +39,13 @@
       "nome": "Coca cola 350ml",
       "descricao": "",
       "preco": 5.5,
-      "imagem": "",
+      "imagem": "https://github.com/fernandorussie/hamburgueriaAPI/blob/main/assets/img-bebida/img1.jpeg?raw=true",
       "categoria_id": 2
     },
     {
       "id": 2,
       "nome": "Coca cola 600ml",
-      "descricao": "",
+      "descricao": "https://github.com/fernandorussie/hamburgueriaAPI/blob/main/assets/img-bebida/img2.jpg?raw=true",
       "preco": 7.5,
       "imagem": "",
       "categoria_id": 2
@@ -55,14 +55,14 @@
       "nome": "Coca cola 2l",
       "descricao": "",
       "preco": 10.5,
-      "imagem": "",
+      "imagem": "https://github.com/fernandorussie/hamburgueriaAPI/blob/main/assets/img-bebida/img3.jpg?raw=true",
       "categoria_id": 2
     },
     {
       "nome": "Guaraná Antarctica 2l",
       "descricao": "",
       "preco": 9.5,
-      "imagem": "",
+      "imagem": "https://github.com/fernandorussie/hamburgueriaAPI/blob/main/assets/img-bebida/img4.jpg?raw=true",
       "categoria_id": 2,
       "id": 4
     }
@@ -73,7 +73,7 @@
       "nome": "Batata frita",
       "descricao": "Porção de Batata frita simples",
       "preco": 3.5,
-      "imagem": "",
+      "imagem": "https://github.com/fernandorussie/hamburgueriaAPI/blob/main/assets/img-acompanhamento/img1.jpg?raw=true",
       "categoria_id": 3
     },
     {
@@ -81,7 +81,7 @@
       "nome": "Batata frita rustica",
       "descricao": "Porção de Batata frita rustica simples",
       "preco": 5.5,
-      "imagem": "",
+      "imagem": "https://github.com/fernandorussie/hamburgueriaAPI/blob/main/assets/img-acompanhamento/img2.jpg?raw=true",
       "categoria_id": 3
     },
     {
@@ -89,14 +89,14 @@
       "nome": "Batata com Cheedar",
       "descricao": "Porção de Batata frita simples com muito Cheedar",
       "preco": 7.5,
-      "imagem": "",
+      "imagem": "https://github.com/fernandorussie/hamburgueriaAPI/blob/main/assets/img-acompanhamento/img3.jpg?raw=true",
       "categoria_id": 3
     },
     {
       "nome": "Batata com Cheedar e Bacon",
       "descricao": "Porção de Batata frita grande com muito Cheedar e farofa de bacon por cima",
       "preco": 10.5,
-      "imagem": "",
+      "imagem": "https://github.com/fernandorussie/hamburgueriaAPI/blob/main/assets/img-acompanhamento/img4.jpg?raw=true",
       "categoria_id": 3,
       "id": 4
     }
