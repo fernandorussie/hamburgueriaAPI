@@ -7,7 +7,7 @@ fetch("https://hamburgueriaapi.onrender.com/sanduiches")
 function qtSanduiche(quantidade) {
     var qtSanduiche = quantidade.length
     console.log("Sanduiches")
-    document.querySelector("#qtSanduiche").innerHTML = `x ${qtSanduiche}`
+    document.querySelector("#qtSanduiche").innerHTML = `/Sanduiches x${qtSanduiche}`
 }
 
 
@@ -20,7 +20,7 @@ fetch("https://hamburgueriaapi.onrender.com/bebidas")
 function qtBebida(quantidade) {
     var qtBebida = quantidade.length
     console.log("Bebidas")
-    document.querySelector("#qtBebida").innerHTML = `x ${qtBebida}`
+    document.querySelector("#qtBebida").innerHTML = `/Bebidas x${qtBebida}`
 }
 
 //Consumindo a API para requisição //Acompanhamentos
@@ -32,11 +32,11 @@ fetch("https://hamburgueriaapi.onrender.com/acompanhamentos")
 function qtAcomp(quantidade) {
     var qtAcomp = quantidade.length
     console.log("Acompanhamentos")
-    document.querySelector("#qtAcomp").innerHTML = `x ${qtAcomp}`
+    document.querySelector("#qtAcomp").innerHTML = `/Acompanhamentos x${qtAcomp}`
 }
 
 //Consumindo a API para requisição //Acompanhamentos
-fetch("https://hamburgueriaapi.onrender.com/categoria")
+fetch("https://hamburgueriaapi.onrender.com/categorias")
 .then((resp) => resp.json())
 .then((data) => {qtCategoria(data),console.log(data)})
 
@@ -44,7 +44,7 @@ fetch("https://hamburgueriaapi.onrender.com/categoria")
 function qtCategoria(quantidade) {
     var qtCategoria = quantidade.length
     console.log("Categoria")
-    document.querySelector("#qtCategoria").innerHTML = `x ${qtCategoria}`
+    document.querySelector("#qtCategoria").innerHTML = `/Categorias x${qtCategoria}`
 }
 
 //Função para exibir os produtos

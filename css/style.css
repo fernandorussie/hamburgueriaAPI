@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: black;
 }
 body{
     height: 100vh;
@@ -34,6 +33,9 @@ body div{
 
 .box_routers{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+}
+a{
+    color: black;
 }
