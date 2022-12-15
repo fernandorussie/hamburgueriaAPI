@@ -7,4 +7,4 @@ const port = process.env.PORT || 3200;
 server.use(middlewares);
 server.use(router);
 
-server.listen(port, console.log(`Server started on port: ${port}`));
+server.listen(port, console.log(`Server started on port: http://localhost:${port}`));

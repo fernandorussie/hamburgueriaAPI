@@ -104,11 +104,11 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Hambúrgueres"
+      "nome": "Sanduiches"
     },
     {
       "id": 2,
-      "nome": "Refrigerantes"
+      "nome": "Bebidas"
     },
     {
       "id": 3,
