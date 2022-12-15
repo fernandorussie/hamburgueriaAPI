@@ -13,7 +13,7 @@ O objetivo do projeto é criar um servidor Json com 3 ou mais rotas, e em cada r
 - Acesso ao servidor remotamente (https://hamburgueriaapi.onrender.com)
 - Requisições GET, POST, PUT, PATH e DELETE (https://www.postman.com)
 
-# Tecnologias utilizadas nesse projeto
+# Ferramentas utilizadas nesse projeto
 - Node
 - JavaScript
 - Json-Server
